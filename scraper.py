@@ -19,6 +19,7 @@ class Scraper:
             if "html" in url:
                 # print("\n" + url)
                 st.write(url + "\n")
+        st.close()
 
 # news = "https://news.google.com"
 # Scraper(news).scrape()
